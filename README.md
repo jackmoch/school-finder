@@ -9,7 +9,7 @@ $ node_modules/.bin/bower install
 $ gulp
 $ nodemon server/server.js
 ```
-Open [localhost:3000](localhost:3000) on your web browser of choice
+Open [localhost:3000](https://localhost:3000) on your web browser of choice
 
 If you would like to make any changes to components or the main.jsx file, open an additional terminal tab and run the following command.
 
