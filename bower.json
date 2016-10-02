@@ -1,0 +1,21 @@
+{
+  "name": "school-finder",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Jack Mocherman <mochermanjack@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jackmoch/school-finder",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-css": "^3.3.6"
+  }
+}
