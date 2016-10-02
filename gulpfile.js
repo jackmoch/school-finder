@@ -20,6 +20,11 @@ gulp.task('copy', ['bundle'], function() {
     .pipe(gulp.dest('app/dist'))
 })
 
+gulp.task('watch', function() {
+  gulp.watch('app/components/*.js', ['copy'])
+  gulp.watch('app/*.jsx', ['copy'])
+})
+
 gulp.task('default', ['copy'], function() {
   console.log('Gulp Completed')
 })

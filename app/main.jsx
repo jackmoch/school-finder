@@ -12,6 +12,10 @@ const _schools = [
 	{
 		name: 'Bishop',
 		tagline: 'Another great school'
+	},
+	{
+		name: 'Notre Dame',
+		tagline: 'This was my school'
 	}
 ]
 
